@@ -8,4 +8,5 @@ res.render('index.pug', index);
 });  
 var server = app.listen(3000,()=>{  
     console.log('Node server is running..');  
+    console.log("http://localhost:3000")
 });  

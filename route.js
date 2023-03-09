@@ -9,4 +9,4 @@ app.get('/splash',(req, res)=>{
     res.send("You just called the post method at '/hello'!\n");
  });
 
-app.listen(3000);
+app.listen(3000,()=>{console.log("http://localhost:3000")});

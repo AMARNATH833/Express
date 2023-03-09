@@ -1,8 +1,8 @@
 const express=require('express')
-var app=express();
+var app = express()
 
-app.get('/',(req,res)=>{
-    res.sent("hello js!")
-});
+app.get('/world',(req,res)=>{
+    res.send("hello js!")
+})
 
-app.listen(2000)
+app.listen(5000,()=>{console.log("http://localhost:5000")});
